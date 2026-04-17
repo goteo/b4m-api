@@ -12,7 +12,7 @@ knpu_oauth2_client:
             type: generic
             provider_class: App\OAuth\DecidimProvider
             provider_options:
-              url: http://b4m.space
+                url: https://b4m.space
             client_id: "%env(DECIDIM_B4M_OAUTH_ID)%"
             client_secret: "%env(DECIDIM_B4M_OAUTH_SECRET)%"
             redirect_route: oauth_providers_callback
