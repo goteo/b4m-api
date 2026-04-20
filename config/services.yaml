@@ -117,4 +117,5 @@ services:
     # please note that last definitions always *replace* previous ones
 
 when@prod:
-    router.request_context.scheme: 'https'
+    parameters:
+        router.request_context.scheme: 'https'
